@@ -1,0 +1,73 @@
+/*
+Default box sizig
+*/
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+
+@media (min-width: 500px) {
+    .card p {
+        display: block;
+    }
+}
+
+/*
+Header
+*/
+header{
+    border-bottom: solid 2px hsl(0, 0%, 40%);
+    height: 40%;
+}
+.title {
+    margin-right: auto;
+    padding-left: 20px;
+}
+strong{
+    color: hsl(160deg, 100%, 30%);
+}
+.intro-chunk{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    
+}
+
+
+
+/*
+Main
+*/
+main{
+    height: 60%;
+}
+main > .max-width-wrapper {
+    height: 100%;
+    background-color: hsl(0, 0%, 60%);
+    padding: 20px;
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    border-bottom: solid 10 px hsl(0, 0%, 40%);
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+.indented-heading{
+    background-color: hsl(45, 100%, 50%);
+    border-bottom: solid 10px hsl(45, 100%, 40%);
+    padding: 20px;
+    padding-left: 40px;
+    width: fit-content;
+    margin-left: -20px;
+}
+p{
+    padding: 10px 20px;
+}
+
